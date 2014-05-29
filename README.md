@@ -28,7 +28,7 @@ Create a new hand and pass in an array of card values
 
     $ hand = EightySix::Hand.new ["A", "J", "3"]
     
-Call 'best_total' on the hand to get the best blackjack totsl!
+Call 'best_total' on the hand to get the best blackjack total!
 
     $ hand.best_total
     
@@ -41,4 +41,3 @@ Call 'best_total' on the hand to get the best blackjack totsl!
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-=======
