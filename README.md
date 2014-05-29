@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # EightySixed
 
 TODO: Write a gem description
@@ -19,7 +18,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### IRB
+
+Start IRB and require EightySix
+
+    $ require 'eighty_six'
+    
+Create a new hand and pass in an array of card values
+
+    $ hand = EightySix::Hand.new ["A", "J", "3"]
+    
+Call 'best_total' on the hand to get the best blackjack totsl!
+
+    $ hand.best_total
+    
+### Executable
 
 ## Contributing
 
@@ -29,6 +42,3 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 =======
-eighty_sixed
-============
->>>>>>> dbab889904dd0faba74b77a325fc661073940682
