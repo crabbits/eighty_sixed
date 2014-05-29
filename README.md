@@ -1,6 +1,6 @@
 # EightySixed
 
-TODO: Write a gem description
+Gem to calculate your hands best total in blackjack.
 
 ## Installation
 
