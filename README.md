@@ -26,7 +26,7 @@ Start IRB and require EightySix
     
 Create a new hand and pass in an array of card values
 
-    $ hand = EightySix::Hand.new ["A", "J", "3"]
+    $ hand = EightySixed::Hand.new ["A", "J", "3"]
     
 Call 'best_total' on the hand to get the best blackjack total!
 
