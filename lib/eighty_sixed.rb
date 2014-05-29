@@ -7,13 +7,23 @@ module EightySixed
     NON_NUMERICS = %w{ J K Q }
     
     def initialize(cards)
-      @cards = build_array_from(cards)
-      @total = 0
+      @cards = cards
+      @total = nil
       @aces = 0  
     end
 
+    def best_total
+      @total ||= calculate_total 
+    end
+
+    private
+
     def cards
       @cards
+    end
+
+    def initialise_total
+      @total = 0
     end
 
     def total
@@ -36,19 +46,11 @@ module EightySixed
       @aces += 1
     end
 
-    def calculate_highest_value
+    def calculate_total
+      initialise_total
       add_values_for(@cards)
       adjust_aces    
-    end
-
-    private
-
-    def build_array_from(cards)
-      array = []
-      cards.each do |a|
-        array << a.gsub(",", "").gsub("[", "").gsub("]", "")
-      end
-      array
+      total
     end
 
     def add_values_for(cards)
