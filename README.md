@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ### IRB
 
-Start IRB and require EightySix
+Start IRB and require EightySixed
 
-    $ require 'eighty_six'
+    $ require 'eighty_sixed'
     
 Create a new hand and pass in an array of card values
 
