@@ -1,6 +1,6 @@
 # EightySixed
 
-Gem to calculate your hands best total in blackjack.
+Gem to calculate your hand's best total in blackjack.
 
 ## Installation
 
