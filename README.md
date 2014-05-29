@@ -34,6 +34,18 @@ Call 'best_total' on the hand to get the best blackjack total!
     
 ### Executable
 
+There is an executable that can be run aswell.
+
+If you installed the gem
+
+    $ cd <gem install path>
+    $ ruby bin/eighty_sixed <array of cards>
+    
+If you forked the repo
+
+    $ cd <path to repo>
+    $ ruby bin/eighty_sixed <array of cards>
+
 ## Contributing
 
 1. Fork it ( http://github.com/ctountzis/eighty_sixed/fork )
